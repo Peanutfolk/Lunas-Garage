@@ -1,0 +1,149 @@
+/* General Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    padding: 0;
+   
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+body {
+    background-image: url("garagefloor.jpg");
+  }
+/* Header */
+header h1 {
+    border: 2px solid rgb(168, 168, 168);  /* black solid border */
+    padding: 5px 10px;             /* space between text and border */
+    display: inline-block;     /* keeps border tight around text */
+    background-color: rgb(40, 153, 197);   /* optional: adds white background */
+    margin: 0;
+}
+
+header {
+    background: #000000;
+    color: rgb(248, 248, 248);
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-logo {
+    width: 500px; /* Adjust size */
+    height: auto;
+    margin-right: 10px; /* Adds space between logo and text */
+    vertical-align: middle; /* Aligns with text */
+}
+
+/* Sections */
+main {
+    padding: 20px;
+}
+
+
+section {
+    background: rgb(146, 146, 146);
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.cars-box {
+    background: url('carsforsale.jpg') no-repeat center center/cover;
+    
+    color: white; /* Change text color for visibility */
+    padding: 100px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 60%; /* Adjust width as needed */
+    margin: 0 auto;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.parts-box {
+    background: url('carparts.jpeg') no-repeat center center/cover;
+    color: white;
+    padding: 100px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.contact-box {
+    background: url('homelunagarage.jpg') no-repeat center -400px/cover;
+    color: #ffffff;
+    padding: 100px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 15px;
+    background: #60088a;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
+#error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #2b2a2a;
+    color: white;
+    margin-top: 20px;
+}
